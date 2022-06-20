@@ -61,7 +61,7 @@
 					<key>COMMAND_STRING</key>
 					<string>osascript &lt;&lt;END 
 tell application "Terminal"
-    do script "jupyter notebook $1;"
+    do script "jupyter notebook $1"
 end tell
 END</string>
 					<key>CheckedForUserDefaultShell</key>
